@@ -15,10 +15,11 @@ PASOS:
 
 	[galaxy_server.automation_hub]
 	url = https://cloud.redhat.com/api/automation-hub/
+	
 	auth_url = https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/token
+	
 	token = SE OBTIENE DESDE https://console.redhat.com/ansible/automation-hub/token
 4. Install collection redhat.openshift
 	$ ansible-galaxy collection install redhat.openshift
 5. Crear playbook
 6. Ejecutar
-
