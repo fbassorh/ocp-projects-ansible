@@ -1,0 +1,9 @@
+- name: Elimina Proyecto en OCP
+  hosts: localhost
+  gather_facts: false
+  vars_files:
+    - secret.yml
+  collections:
+    - redhat.openshift
+  roles:
+    - removenamespace
