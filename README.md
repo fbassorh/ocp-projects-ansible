@@ -1,5 +1,6 @@
 # ocp-projects-ansible
 Pass vault: redhat01
+
 Viene con el collection redhat.openshift por default, pero están comentadas las líneas para usar el comunitario community.okd
 Para el uso de el collection redhat.openshift se debe configurar ansible.cfg en la raíz del proyecto
 
