@@ -14,6 +14,7 @@ PASOS:
 	
 	$ pip3 install kubernetes
 	
+	
 3. Creaet ansible.cfg
 
 	[galaxy]
