@@ -7,10 +7,15 @@ Para el uso de el collection redhat.openshift se debe configurar ansible.cfg en 
 PASOS:
 
 1. Install requests-oauthlib
+
 	$ pip3 install requests-oauthlib
+	
 2. Install kubernetes
+	
 	$ pip3 install kubernetes
+	
 3. Creaet ansible.cfg
+
 	[galaxy]
 	server_list = automation_hub
 
@@ -20,6 +25,7 @@ PASOS:
 	auth_url = https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/token
 	
 	token = SE OBTIENE DESDE https://console.redhat.com/ansible/automation-hub/token
+
 4. Instalación de collections a elección 
 
 4.1. Install collection redhat.openshift
