@@ -27,6 +27,9 @@ PASOS:
 	$ ansible-galaxy collection install redhat.openshift
 	
 4.2. Install collection community.okd
+
 	$ ansible-galaxy collection install community.okd
+	
 5. Crear playbook
+
 6. Ejecutar
