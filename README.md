@@ -21,8 +21,11 @@ PASOS:
 	
 	token = SE OBTIENE DESDE https://console.redhat.com/ansible/automation-hub/token
 4. Instalación de collections a elección 
+
 4.1. Install collection redhat.openshift
+
 	$ ansible-galaxy collection install redhat.openshift
+	
 4.2. Install collection community.okd
 	$ ansible-galaxy collection install community.okd
 5. Crear playbook
