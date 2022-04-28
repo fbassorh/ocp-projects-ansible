@@ -20,7 +20,10 @@ PASOS:
 	auth_url = https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/token
 	
 	token = SE OBTIENE DESDE https://console.redhat.com/ansible/automation-hub/token
-4. Install collection redhat.openshift
+4. Instalación de collections a elección 
+4.1. Install collection redhat.openshift
 	$ ansible-galaxy collection install redhat.openshift
+4.2. Install collection community.okd
+	$ ansible-galaxy collection install community.okd
 5. Crear playbook
 6. Ejecutar
